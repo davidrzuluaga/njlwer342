@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 /// Modifica el componente para que se puedan agregar tareas
 
 class App extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = {
       tasks: ['Sacar la ropa', 'Hacer la cama', 'Leer un rato'],
       newTask: ""
