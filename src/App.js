@@ -34,11 +34,11 @@ class App extends Component {
     })
   }
   handleSubmit = (e) => {
-    e.preventDefault();
-      this.setState({
-        newTask: "",
-        tasks: this.state.tasks.concat(this.state.newTask),
+    this.setState({
+      tasks: this.state.tasks.concat(this.state.newTask),
+      newTask: "",
     })
+    e.preventDefault();
   }
 }
 
