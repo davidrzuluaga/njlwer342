@@ -36,7 +36,7 @@ class App extends Component {
   handleSubmit = (e) => {
     this.setState({
       tasks: this.state.tasks.concat(this.state.newTask),
-      newTask: "",
+      newTask: ""
     })
     e.preventDefault();
   }
